@@ -14,7 +14,8 @@ def polarity_textblob(text):
     elif x == 0:
         return "Sounds neutral."
     else:
-
+        return "Sounds positive."
+        
         
 # create command handler
 @bot.message_handler(commands=['start'])
