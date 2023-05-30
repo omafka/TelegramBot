@@ -30,7 +30,7 @@ def start(message):
 @bot.message_handler(commands=['help'])
 def help(message):
     bot.reply_to(message,
-                 "You can determine the mood of the message through me. Just send me your message, and I will send it for analysis."
+                 "You can determine the mood of the message through me. Just send me your message, and I will send it for analysis.")
 
                  
 @bot.message_handler(func=lambda message: True)
